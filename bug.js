@@ -1,0 +1,1 @@
+This error occurs when using AsyncStorage in React Native and attempting to access data before it has been fully retrieved.  The `getItem` method is asynchronous, meaning it doesn't return the value immediately.  Trying to use the result before the promise resolves leads to this undefined value.
